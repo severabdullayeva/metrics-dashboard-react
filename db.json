@@ -1,0 +1,34 @@
+{
+  "metrics": [
+    {
+      "id": 1,
+      "title": "Followers",
+      "value": 2500,
+      "visible": true
+    },
+    {
+      "id": 2,
+      "title": "Likes",
+      "value": 900,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "title": "Page Views",
+      "value": 1325,
+      "visible": true
+    },
+    {
+      "id": 4,
+      "title": "Comments",
+      "value": 526,
+      "visible": true
+    },
+    {
+      "id": 5,
+      "title": "Shares",
+      "value": 236,
+      "visible": true
+    }
+  ]
+}

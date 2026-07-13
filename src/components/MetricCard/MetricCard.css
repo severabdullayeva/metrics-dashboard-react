@@ -1,0 +1,30 @@
+.metric-card {
+  border: 1px solid #ddd;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  text-align: center;
+}
+
+.metric-title {
+  display: flex;
+  flex-direction: column;
+  color: #555;
+  font-size: 20px;
+}
+
+.metric-value {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+}
+
+@media (max-width: 480px) {
+  .metric-card {
+    width: 250px;
+    margin: 0 auto;
+  }
+}
