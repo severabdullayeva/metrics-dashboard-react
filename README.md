@@ -1,16 +1,69 @@
-# React + Vite
+# 📊 Metrics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A configurable metrics dashboard built with **React**. Users can manage metric cards by showing/hiding them, reordering them with drag-and-drop, and saving their preferred layout using local storage.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 📈 Display metric cards from a mock API
+* 👁️ Show or hide metric cards
+* 🔄 Drag and drop cards to change their order
+* 💾 Save dashboard layout with Local Storage
+* 📱 Responsive design for desktop, tablet, and mobile
 
-## React Compiler
+## 🛠️ Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript (ES6+)
+* CSS3
+* Vite
+* JSON Server
+* @hello-pangea/dnd
 
-## Expanding the ESLint configuration
+## 🚀 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/YOUR_USERNAME/metrics-dashboard-react.git
+cd metrics-dashboard-react
+npm install
+```
+
+## ▶️ Run the Project
+
+Start the React application:
+
+```bash
+npm run dev
+```
+
+Start the mock API:
+
+```bash
+npx json-server db.json
+```
+
+## 📁 Project Structure
+
+```
+src/
+ ├── components/
+ │   ├── Dashboard/
+ │   ├── Header/
+ │   ├── MetricCard/
+ │   └── MetricControl/
+ ├── App.jsx
+ └── main.jsx
+```
+
+## 🎯 Learning Goals
+
+This project focuses on:
+
+* State management with React Hooks
+* Fetching data from a mock API
+* Drag-and-drop functionality
+* Local Storage persistence
+* Responsive UI development
+
+## 👩‍💻 Author
+
+**Sevər Abdullayeva**
