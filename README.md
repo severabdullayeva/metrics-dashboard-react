@@ -22,7 +22,7 @@ A configurable metrics dashboard built with **React**. Users can manage metric c
 ## 🚀 Installation
 
 ```bash
-git clone [metrics-dashboard-react](https://github.com/severabdullayeva/metrics-dashboard-react)
+git clone https://github.com/severabdullayeva/metrics-dashboard-react.git
 cd metrics-dashboard-react
 npm install
 ```
